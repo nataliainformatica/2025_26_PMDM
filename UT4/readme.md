@@ -1,4 +1,4 @@
-# EjemploUT4RecclerViewjava
+# EjemploUT4RecylerViewjava
 
 Ejemplo resumen de muchos de los conceptos del tema4
 Componente Recycler, Toast, Snack, Menu de opciones, Popup menu (con eventos)
