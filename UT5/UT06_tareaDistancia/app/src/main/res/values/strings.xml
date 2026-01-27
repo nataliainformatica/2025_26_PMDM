@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UT6</string>
+    <string name="play_audio">Reproducir audio</string>
+    <string name="stop_audio">Detener audio</string>
+</resources>
