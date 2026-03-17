@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemAmpliarImagen"
+        android:title="Ampliar imagen" />
+    <item
+        android:id="@+id/itemMapa"
+        android:title="Mapa" />
+
+    <item
+        android:id="@+id/itemSubir"
+        android:title="Subir" />
+    <item
+        android:id="@+id/itemBajar"
+        android:title="Bajar" />
+
+
+</menu>

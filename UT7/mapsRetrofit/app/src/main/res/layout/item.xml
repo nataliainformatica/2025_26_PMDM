@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/itemLayout"
+    android:background="@android:color/holo_orange_light"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:text="Nombre" />
+
+        <TextView
+            android:id="@+id/tvPais"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Pais" />
+
+        <TextView
+            android:id="@+id/tvPoblacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Población" />
+
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="91dp"
+        android:layout_weight="3" >
+
+        <ImageView
+            android:id="@+id/ivCiudad"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"/>
+
+        <ImageView
+            android:id="@+id/ivAmpliar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ampliar"
+            android:layout_marginEnd="5dp"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+            android:id="@+id/ivMapa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mapa"
+            android:layout_marginEnd="5dp"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="5dp"/>
+
+    </FrameLayout>
+
+
+</LinearLayout>

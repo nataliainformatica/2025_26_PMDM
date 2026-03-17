@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UD12_activity2</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="ciudades_de_europa">CIUDADES DE EUROPA</string>
+</resources>
