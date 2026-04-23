@@ -2,7 +2,6 @@ El objetivo de la práctica es trabajar los resultados de aprendizaje de la part
 
 Layouts, intents y fragments, persistencia, usando Retrofit, SQLite y SharedPreferences. 
 
-Al arrancar la aplicación nos mostrará una pantalla de bienvenida, 
 
 La aplicación al arrancar  abrirá la  pantalla principal que tendrá dos fragments. En el superior muestra la lista descargada de la api  (se explica el detalle de cada ítem más
 adelante). Y en la pantalla inferior la lista de los “favoritos”.
